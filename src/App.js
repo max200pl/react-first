@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react';  //импорт файлов react с node_modules 
+
 import './App.css';
 
-function App() {
+import Header from './Header';
+import Technologies from './Technologies';
+
+
+// App компонента стрелочна функция которая возвращает JSX разметку 
+// App компонента это тег <App/> 
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Technologies />
     </div>
   );
 }
 
-export default App;
+
+export default App;   // экспортируем компонента в общую среду 
