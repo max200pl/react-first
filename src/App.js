@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Porfile/Profile';
+import Dialogs from './components/Dialogs/Dialogs';
 
 // App компонента стрелочна функция которая возвращает JSX разметку 
 // App компонента это тег <App/> 
@@ -16,7 +17,11 @@ const App = () => {
 
       <Navbar />
 
-      <Profile />
+      <div className="app-wrapper-content">
+        <Dialogs />
+      </div>
+
+      {/* <Profile /> */}
 
     </div>
 
