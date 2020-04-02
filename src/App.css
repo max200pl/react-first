@@ -9,26 +9,3 @@
 
     /* grid-gap: 10px;  растояние между элементами */
 }
-
-.header {
-    grid-area: h;
-    background-color: green;
-}
-
-.header img {
-    width: 70px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: burlywood;
-}
-
-.main {
-    grid-area: c;
-}
-
-.main img {
-    width: 100%;
-    max-height: 300px;
-}
