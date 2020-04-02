@@ -1,5 +1,5 @@
 import React from 'react';  //импорт файлов react с node_modules 
-import s from './Profile.module.css';
+// import s from './Profile.module.css';
 import Myposts from './Myposts/Myposts';
 
 const Profile = () => {

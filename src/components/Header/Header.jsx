@@ -4,7 +4,7 @@ import s from './Header.module.css';
 const Header = () => {
      return (
           <header className={s.header}>
-               <img src="https://lh3.googleusercontent.com/proxy/iYGw7eR5K3fcQZc-5hu2DIEaiu7zugFhF0TkC0s1a_nGUS_bBViyBeyHwH7z1KsqQy3B_GYdBkx_j82FaVnuR0oYg2Mo4NOWQACcMH1IQRDoQQVUIYYTVg" alt="" /><header />
+               <img src="https://mymedicaremadesimple.com/wp-content/uploads/2019/04/IMG-Logo-2016-new.png" alt="" />
           </header>
      );
 }
